@@ -1,0 +1,95 @@
+import 'package:flutter/material.dart';
+
+class AppLocalizations {
+  static const List<Locale> supportedLocales = [
+    Locale('en'),
+    Locale('hi'),
+    Locale('es'),
+    Locale('fr'),
+    Locale('de'),
+    Locale('ja'),
+    Locale('ko'),
+    Locale('zh'),
+    Locale('ar'),
+  ];
+
+  static const localizationsDelegates = [];
+
+  static Map<String, String> get en {
+    return {
+      'app_name': 'LifeOS',
+      'app_tagline': 'Your Digital Memory.',
+      'welcome_title': 'Welcome to LifeOS',
+      'welcome_subtitle': 'Your Privacy-First Personal Memory Operating System',
+      'get_started': 'Get Started',
+      'login': 'Login',
+      'create_account': 'Create Account',
+      'enter_pin': 'Enter PIN',
+      'confirm_pin': 'Confirm PIN',
+      'set_pin': 'Set PIN',
+      'use_biometric': 'Use Biometric',
+      'dashboard': 'Dashboard',
+      'documents': 'Documents',
+      'search': 'Search',
+      'ai_insights': 'AI Insights',
+      'settings': 'Settings',
+      'recent_documents': 'Recent Documents',
+      'upcoming_expiry': 'Upcoming Expiry',
+      'no_documents': 'No documents yet',
+      'import_document': 'Import Document',
+      'camera': 'Camera',
+      'gallery': 'Gallery',
+      'files': 'Files',
+      'cancel': 'Cancel',
+      'done': 'Done',
+      'save': 'Save',
+      'delete': 'Delete',
+      'search_documents': 'Search documents...',
+      'theme': 'Theme',
+      'language': 'Language',
+      'security': 'Security',
+      'privacy': 'Privacy',
+      'about': 'About',
+      'version': 'Version',
+    };
+  }
+
+  static Map<String, String> get hi {
+    return {
+      'app_name': 'LifeOS',
+      'app_tagline': 'आपकी डिजिटल स्मृति।',
+      'welcome_title': 'LifeOS में आपका स्वागत है',
+      'welcome_subtitle': 'आपकी गोपनीयता-पहली व्यक्तिगत स्मृति ऑपरेटिंग प्रणाली',
+      'get_started': 'शुरुआत करें',
+      'login': 'लॉगिन',
+      'create_account': 'खाता बनाएं',
+      'enter_pin': 'PIN दर्ज करें',
+      'confirm_pin': 'PIN की पुष्टि करें',
+      'set_pin': 'PIN सेट करें',
+      'use_biometric': 'बायोमेट्रिक का उपयोग करें',
+      'dashboard': 'डैशबोर्ड',
+      'documents': 'दस्तावेज़',
+      'search': 'खोज',
+      'ai_insights': 'AI अंतर्दृष्टि',
+      'settings': 'सेटिंग्स',
+      'recent_documents': 'हाल ही के दस्तावेज़',
+      'upcoming_expiry': 'आने वाली समाप्ति',
+      'no_documents': 'अभी कोई दस्तावेज़ नहीं',
+      'import_document': 'दस्तावेज़ आयात करें',
+      'camera': 'कैमरा',
+      'gallery': 'गैलरी',
+      'files': 'फाइलें',
+      'cancel': 'रद्द करें',
+      'done': 'पूर्ण',
+      'save': 'सहेजें',
+      'delete': 'हटाएं',
+      'search_documents': 'दस्तावेज़ खोजें...',
+      'theme': 'थीम',
+      'language': 'भाषा',
+      'security': 'सुरक्षा',
+      'privacy': 'गोपनीयता',
+      'about': 'परिचय',
+      'version': 'संस्करण',
+    };
+  }
+}
